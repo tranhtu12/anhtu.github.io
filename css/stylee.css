@@ -1,0 +1,239 @@
+*{
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    
+    height: 50px;
+    border: 1px solid #ccc;
+    background-color: #0a6fbb;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 54px;
+}
+li{
+    list-style: none;
+}
+ul li a{ 
+    text-decoration: none;
+    margin: 0 15px;  
+    color: white;
+    line-height: 5px;
+}
+ul li{
+    
+   float: left; 
+   font-size: 12pt;
+}
+ul li ul{
+    display: none;
+    padding: 0;
+    position: absolute;
+    background-color: #0a6fbb;
+}
+ul li a:hover{
+    color: rgb(255, 115, 0);
+}
+ul li ul li{
+    float: none;
+    margin: 10px 0;
+}
+ul li:hover ul{
+    display: block;
+}
+.boxcenter{
+    width: 100%;
+    margin: 10px auto;
+}
+.boxleft{
+    float: left;
+    width: calc(80% - 20px);
+    min-height: 950px;
+    margin-right: 20px;
+    font-family: 'Nunito', sans-serif;
+}
+.boxright{
+    float: left;
+    width: 20%;
+    min-height: 645px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.allother{
+    float: left;
+    border: 1px solid black;
+    width: 100%;
+    min-width: 200px;
+    min-height: 460px;
+}
+
+.allother li {
+    margin: 15px auto;
+}
+
+.box{
+    width: 100%;
+    height: 50px;
+    background-color: #0a6fbb;
+    margin: -16px auto;
+}
+.box ul {
+    margin-left: -20px ;
+}
+.box ul li a{
+    color: white;
+    
+}
+.box1{
+    width: 100%;
+    height: 50px;
+    background-color: #ccc;
+    
+       
+}
+.box1 ul {
+
+margin-bottom: -15px;
+}
+.box2 ul { 
+    margin-bottom: -15px;  
+}
+.box2{
+    width: 100%;
+    height: 50px;
+      
+    
+}
+.box1 ul li a{
+    color: #0a6fbb;
+}
+.box2 ul li a{
+    color: #0a6fbb;
+}
+.box1 ul li a:hover{
+    color: rgb(255, 115, 0);
+}
+.box2 ul li a:hover{
+    color: rgb(255, 115, 0);
+}
+.box3{
+    float: left;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, rgb(76, 211, 143), rgba(255, 255, 255, 0.979));
+    margin-bottom: 7px;
+    
+}
+.box3 h4{
+    color:#0a6fbb ;
+    margin-top: 15px;
+    
+}
+.box5{
+    float:left;
+    width: 73%;
+    min-height: 511px;
+    
+}
+.box6{
+    float: left;
+    width: 100%;
+    min-height: 300px;
+    
+}
+.box6 h4{
+    color: #0a6fbb;
+    margin: 10px auto;
+}
+.box6 h5{
+    margin: 0 auto;
+}
+.box6 p{
+    font-size: 5pt;
+}
+.box4{
+    float: left;
+    width: 27%;
+    min-height: 392px;
+    background-color: #ccc;
+}
+.box4 h5{
+    color: #0a6fbb;
+    margin-top: 10px;
+}
+.box4 h5:hover{
+    color: rgb(255, 115, 0) ;
+}
+.box4 hr{
+    margin-top: -15px;
+}
+.box4 h4 {
+    color: #0a6fbb;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 25px;
+} 
+.news{
+    float: left;
+    width: 100%;
+    min-width: 199px ;
+    height: 430px;
+    border: 1px solid red;
+    margin-top: 10px;
+}
+
+.bo{
+float: left;
+width: 100%;
+height: 50px;
+background-color: red;
+margin-bottom: 10px;
+}
+.bo h4{
+    color: white;
+    margin-left: 10px;
+}
+.bo1{
+    width: 100%;
+    height: 50px;
+    margin-left: -30px;
+    
+}
+.bo1 ul li a{
+    color: red;
+}
+.bo1 ul li a:hover{
+    text-decoration: underline red solid;
+}
+.box7 img{
+    width: 300px;
+    
+}
+
+footer{
+    clear: both;
+    width: 1024px;
+    min-height: 150px;
+    margin: 0 auto;
+    border: 1px solid #0a6fbb;
+    background-color: #0a6fbb;
+}
+header img{
+    width: 1024px;
+    
+}
+footer p{
+    margin-left: 20px;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
+.fa-check-square{
+    margin-left: 5px;
+}
+.all{
+    width: 1024px;
+    margin: 0 auto;
+}
+.box6 img{
+    width: 97%;
+}
