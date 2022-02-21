@@ -72,3 +72,6 @@ button:hover {
     background-color: #0a6fbb;
     color: white;
   }
+  label{
+      font-size: 10pt;
+  }
